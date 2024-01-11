@@ -19,12 +19,25 @@ fn main() {
         some_string.push_str(", world");
     }
     // can not create two mutable referances to the same variable
-    { // will cause error
+    // { // will cause error
+    //     let mut s = String::from("hello");
+    //     let r1 = &mut s;
+    //     //let r2 = &mut s; // error
+    //     println!("{}", r1);
+    // }
+
+    {
         let mut s = String::from("hello");
-        let r1 = &mut s;
-        //let r2 = &mut s; // error
-        println!("{}", r1);
+
+        let r1 = &s; // no problem
+        let r2 = &s; // no problem
+        println!("{} and {}", r1, r2);
+        // variables r1 and r2 will not be used after this point
+
+        let r3 = &mut s; // no problem
+        println!("{}", r3);
     }
+
   
 }
 

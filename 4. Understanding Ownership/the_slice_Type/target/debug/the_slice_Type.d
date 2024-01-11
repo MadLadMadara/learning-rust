@@ -1,0 +1,1 @@
+C:\Users\sajmc\Documents\Self-study\learning-rust\4.\ Understanding\ Ownership\the_slice_Type\target\debug\the_slice_Type.exe: C:\Users\sajmc\Documents\Self-study\learning-rust\4.\ Understanding\ Ownership\the_slice_Type\src\main.rs
