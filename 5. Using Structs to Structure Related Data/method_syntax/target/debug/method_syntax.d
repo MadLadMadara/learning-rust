@@ -1,0 +1,1 @@
+C:\Users\sajmc\Documents\Self-study\learning-rust\5.\ Using\ Structs\ to\ Structure\ Related\ Data\method_syntax\target\debug\method_syntax.exe: C:\Users\sajmc\Documents\Self-study\learning-rust\5.\ Using\ Structs\ to\ Structure\ Related\ Data\method_syntax\src\main.rs
